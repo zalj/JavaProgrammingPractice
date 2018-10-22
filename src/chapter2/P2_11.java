@@ -13,7 +13,7 @@ public class P2_11 {
 		int deathPerYear = (int)(secondsPerYear / 13.0);
 		int immigratePerYear = (int)(secondsPerYear / 45.0);
 		int increase = bornPerYear + immigratePerYear - deathPerYear;
-		for(int i = 0; i < years + 1; i++) {
+		for(int i = 0; i < years; i++) {
 			currentPopulation += increase;
 		}
 		System.out.println(currentPopulation);
